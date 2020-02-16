@@ -1,31 +1,53 @@
 <template>
-    <div class="container">
-     <img src="../assets/dogs.jpg" style="width:100% height:200px padding: 0 0 0 0" />
-        <div class= "bottom-left">This is your new family!</div>
+  <div class="container" id="dogpics">
+    <div class="row">
+      <div class="col-sm-12"></div>
     </div>
+    <div class="row" id="botrow"></div>
+    <div class="bottom-left">
+      <h1>This is your new Family!</h1>
+      <br />
+      <button id="adoptbutton">Adopt Now</button>
+    </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style lang="scss">
-#app {
-  font-family:'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: #f50d11;
   padding-right: 0px;
   padding-left: 0px;
-  height: 200px;
+  height: 350px;
+  object-fit: scale-down;
+}
+#botrow {
+  position: relative;
+  text-align: center;
+  color: f50d11;
+  font-weight: bold;
+  height: 150px;
+}
+#adoptbutton {
+  position: relative;
+  text-align: left;
+  color: #f50d11;
+  background-color: transparent;
+  border: 2px solid #f50d11;
+  font-weight: bold;
+}
+#dogpics {
+  background-image: url("../assets/dogs.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .bottom-left {
@@ -33,18 +55,5 @@
   bottom: 8px;
   left: 16px;
   opacity: 0.5;
-  
-}
-#nav {
-  padding: 0px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>
