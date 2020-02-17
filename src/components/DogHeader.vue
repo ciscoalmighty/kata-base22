@@ -18,15 +18,7 @@ export default {};
 
 <style lang="scss">
 .container {
-  position: relative;
-  text-align: center;
-  color: #f50d11;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 25px;
-  height: 350px;
-  object-fit: scale-down;
-  margin-bottom: 25px;
+
 }
 #botrow {
   position: relative;
@@ -49,6 +41,14 @@ export default {};
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  text-align: center;
+  color: #f50d11;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 25px;
+  height: 350px;
+  object-fit: scale-down;
+  margin-bottom: 25px;
 }
 
 .bottom-left {

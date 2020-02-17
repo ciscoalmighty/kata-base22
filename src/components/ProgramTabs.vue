@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="program">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a
@@ -34,25 +34,49 @@
         aria-labelledby="home-tab"
       >
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 mt-3">
+          <div class="row" id="cards">
+            <div class="col-sm-12">
               <div class="card">
                 <div class="card-horizontal">
                   <div class="img-square-wrapper">
                     <img
-                      class=""
+                      id="programdogpics"
                       src="../assets/friend-in-trouble.png"
                       alt="Card image cap"
                     />
                   </div>
                   <div class="card-body">
-                    <h3 class="card-title">BEHAVIOR PROGRAM</h3>
+                    <h3 class="card-title" id="titles">BEHAVIOR PROGRAM</h3>
                     <p class="card-text">
                       Evalution of each dog using specialists who determine the
                       best training that will help your friend be a better
                       family member.
                     </p>
-                    <button>Learn More</button>
+                    <button id="learnbutton">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="cards">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-horizontal">
+                  <div class="img-square-wrapper">
+                    <img
+                      id="programdogpics"
+                      src="../assets/friend-in-trouble.png"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title" id="titles">MY NEXT FAMILY</h3>
+                    <p class="card-text">
+                      Are you looking for a new family member? Then, this
+                      program is for your. Dont buy, adopt here, and let's give
+                      a home to this amazing friends.
+                    </p>
+                    <button id="learnbutton">Learn More</button>
                   </div>
                 </div>
               </div>
@@ -66,43 +90,7 @@
         role="tabpanel"
         aria-labelledby="profile-tab"
       >
-        Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-        single-origin coffee squid. Exercitation +1 labore velit, blog sartorial
-        PBR leggings next level wes anderson artisan four loko farm-to-table
-        craft beer twee. Qui photo booth letterpress, commodo enim craft beer
-        mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud
-        organic, assumenda labore aesthetic magna delectus mollit. Keytar
-        helvetica VHS salvia yr, vero magna velit sapiente labore stumptown.
-        Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts
-        beard ut DIY ethical culpa terry richardson biodiesel. Art party
-        scenester stumptown, tumblr butcher vero sint qui sapiente accusamus
-        tattooed echo park.
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 mt-3">
-          <div class="card">
-            <div class="card-horizontal">
-              <div class="img-square-wrapper">
-                <img
-                  class=""
-                  src="../assets/friend-in-trouble.png"
-                  alt="Card image cap"
-                />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">MY NEXT FAMILY</h3>
-                <p class="card-text">
-                  Are you looking for a new family member? Then, this program is
-                  for your. Dont buy, adopt here, and let's give a home to this
-                  amazing friends.
-                </p>
-                <button>Learn More</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        Food truck fixie locavore.
       </div>
     </div>
   </div>
@@ -116,5 +104,26 @@ export default {};
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
+}
+#program {
+  margin-bottom: 25px;
+}
+#learnbutton {
+  position: relative;
+  text-align: left;
+  color: red;
+  background-color: transparent;
+  border: 2px solid red;
+  font-weight: bold;
+}
+#titles {
+  color: red;
+}
+#cards {
+  max-height: 200px;
+}
+#programdogpics {
+  object-fit: scale-down;
+  margin-bottom: 25px;
 }
 </style>
