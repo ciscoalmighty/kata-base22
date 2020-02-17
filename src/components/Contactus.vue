@@ -18,10 +18,9 @@
       </b-collapse>
     </b-navbar>
     <div class="row" id="address">
-      <p>Main St #1245</p>
-    </div>
-    <div class="row" id="address">
       <p>
+        Main St #1245
+        <br />
         Amazing City, 45677
       </p>
     </div>
@@ -39,7 +38,7 @@ export default {};
   text-align: center;
   color: white;
   padding: 0.5rem 3rem;
-  margin-top: 25px;
+  margin-top: 100px;
 }
 #address {
   padding: 0rem 3rem;
@@ -47,5 +46,7 @@ export default {};
 }
 
 #navlink {
+  display: center;
+  margin: 0 auto;
 }
 </style>

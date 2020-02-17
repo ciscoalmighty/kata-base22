@@ -27,11 +27,12 @@
           </div>
           <div class="card-body embed-responsive embed-responsive-16by9">
             <iframe
-              id="video"
-              class="embed-responsive-item"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY"
-              height="200"
-              width="300"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/CQKGI0SbnFo?controls=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
             ></iframe>
           </div>
         </div>

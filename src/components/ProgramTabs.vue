@@ -35,7 +35,7 @@
       >
         <div class="container-fluid">
           <div class="row" id="cards">
-            <div class="col-sm-8">
+            <div class="col-sm-8" id="dogrow">
               <div class="card">
                 <div class="card-horizontal">
                   <div class="img-square-wrapper">
@@ -87,14 +87,6 @@
           </div>
         </div>
       </div>
-      <div
-        class="tab-pane fade"
-        id="profile"
-        role="tabpanel"
-        aria-labelledby="profile-tab"
-      >
-        Food truck fixie locavore.
-      </div>
     </div>
   </div>
 </template>
@@ -125,10 +117,13 @@ export default {};
 }
 #cards {
   max-height: 200px;
+  margin-bottom: 25px;
 }
 #programdogpics {
   max-height: 350px;
   object-fit: scale-down;
-  margin-bottom: 25px;
+}
+#dogrow{
+  max-height: 250px;
 }
 </style>
