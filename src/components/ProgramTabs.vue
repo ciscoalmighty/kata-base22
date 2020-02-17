@@ -109,6 +109,7 @@ export default {};
   flex: 1 1 auto;
 }
 #program {
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 #learnbutton {
