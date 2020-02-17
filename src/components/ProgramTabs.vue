@@ -35,7 +35,7 @@
       >
         <div class="container-fluid">
           <div class="row" id="cards">
-            <div class="col-sm-12">
+            <div class="col-sm-8">
               <div class="card">
                 <div class="card-horizontal">
                   <div class="img-square-wrapper">
@@ -57,9 +57,12 @@
                 </div>
               </div>
             </div>
+            <div class="col-sm-4" >
+              <img src="../assets/cutedog.jpg" id="programdogpics" />
+            </div>
           </div>
           <div class="row" id="cards">
-            <div class="col-sm-12">
+            <div class="col-sm-8">
               <div class="card">
                 <div class="card-horizontal">
                   <div class="img-square-wrapper">
@@ -123,6 +126,7 @@ export default {};
   max-height: 200px;
 }
 #programdogpics {
+  max-height: 350px;
   object-fit: scale-down;
   margin-bottom: 25px;
 }
