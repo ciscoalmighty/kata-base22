@@ -23,8 +23,10 @@ export default {};
   color: #f50d11;
   padding-right: 0px;
   padding-left: 0px;
+  padding-bottom: 25px;
   height: 350px;
   object-fit: scale-down;
+  margin-bottom: 25px;
 }
 #botrow {
   position: relative;
@@ -43,7 +45,6 @@ export default {};
 }
 #dogpics {
   background-image: url("../assets/dogs.jpg");
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
