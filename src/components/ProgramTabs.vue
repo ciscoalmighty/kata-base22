@@ -57,7 +57,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4" >
+            <div class="col-sm-4">
               <img src="../assets/cutedog.jpg" id="programdogpics" />
             </div>
           </div>
@@ -83,6 +83,9 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="../assets/cutedog.jpg" id="programdogpics" />
             </div>
           </div>
         </div>
@@ -123,7 +126,7 @@ export default {};
   max-height: 350px;
   object-fit: scale-down;
 }
-#dogrow{
+#dogrow {
   max-height: 250px;
 }
 </style>
